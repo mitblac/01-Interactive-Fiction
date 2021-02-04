@@ -1,0 +1,891 @@
+{
+    "passages": [
+      {
+        "text": "You emerge from the portal, stepping into a clearing amidst a sea of tall grass... a gentle breeze carries the homey sound of guitar strings, plucked gently somewhere nearby.\n\nDo you stay, or do you go back?\n\n[[stay->Stay Field]]\n[[go back->Return Portal Room]]",
+        "links": [
+          {
+            "name": "stay",
+            "link": "Stay Field",
+            "pid": "2"
+          },
+          {
+            "name": "go back",
+            "link": "Return Portal Room",
+            "pid": "3"
+          }
+        ],
+        "name": "Arrive Field",
+        "pid": "1",
+        "position": {
+          "x": "893",
+          "y": "868"
+        }
+      },
+      {
+        "text": "With a breeze in your hair and sunshine on your skin, you step forward as the portal behind you closes. In front of you, four artifacts appear.\n\nWhich do you examine?\n\n[[rhinestoned microphone->examine mic]]\n[[pink hat->examine pink hat]]\n[[ebony steed->examine steed]]\n[[pink tinted aviators->examine aviators]]",
+        "links": [
+          {
+            "name": "rhinestoned microphone",
+            "link": "examine mic",
+            "pid": "4"
+          },
+          {
+            "name": "pink hat",
+            "link": "examine pink hat",
+            "pid": "5"
+          },
+          {
+            "name": "ebony steed",
+            "link": "examine steed",
+            "pid": "6"
+          },
+          {
+            "name": "pink tinted aviators",
+            "link": "examine aviators",
+            "pid": "7"
+          }
+        ],
+        "name": "Stay Field",
+        "pid": "2",
+        "position": {
+          "x": "906",
+          "y": "1014"
+        }
+      },
+      {
+        "text": "You return through the portal whence you came and find yourself in the Portal Room once more.\n\nWhich portal do you enter?\n\n[[the blue portal->Arrive White Room]]\n[[the gold portal->Arrive Field]]\n[[the pink portal->Arrive Terminal]]",
+        "links": [
+          {
+            "name": "the blue portal",
+            "link": "Arrive White Room",
+            "pid": "13"
+          },
+          {
+            "name": "the gold portal",
+            "link": "Arrive Field",
+            "pid": "1"
+          },
+          {
+            "name": "the pink portal",
+            "link": "Arrive Terminal",
+            "pid": "14"
+          }
+        ],
+        "name": "Return Portal Room",
+        "pid": "3",
+        "position": {
+          "x": "900",
+          "y": "666"
+        }
+      },
+      {
+        "text": "You approach the microphone, which rests on a matching rhinestoned mic stand. As you remove the mic from its resting place, a streak of wind parts the tall grass of the field, revealing a dusty path. Not far off, you see a crowd of people gathering under a tower of flashing lights.\n\nWhat do you do?\n\n[[follow the path->Perfect Illusion link]]\n[[examine a different artifact->Return Field Mic]]",
+        "links": [
+          {
+            "name": "follow the path",
+            "link": "Perfect Illusion link",
+            "pid": "29"
+          },
+          {
+            "name": "examine a different artifact",
+            "link": "Return Field Mic",
+            "pid": "8"
+          }
+        ],
+        "name": "examine mic",
+        "pid": "4",
+        "position": {
+          "x": "681",
+          "y": "1227"
+        }
+      },
+      {
+        "text": "You approach the pink hat, which rests upon the head of a rose gold mannequin. You gently remove the hat and place it upon your head. As the brim finds its place on your brow, the tall grass surrounding you retracts into the earth, revealing a warm desert on the brink of sunset.\n\nWhat do you do?\n\n[[lie down and watch the sun set->Million Reasons link]]\n[[examine a different artifact->Return Field Hat]]",
+        "links": [
+          {
+            "name": "lie down and watch the sun set",
+            "link": "Million Reasons link",
+            "pid": "30"
+          },
+          {
+            "name": "examine a different artifact",
+            "link": "Return Field Hat",
+            "pid": "9"
+          }
+        ],
+        "name": "examine pink hat",
+        "pid": "5",
+        "position": {
+          "x": "830",
+          "y": "1227"
+        }
+      },
+      {
+        "text": "You approach the steed, who whinnies at your presence. Then, as if out of nowhere, a rider clad in denim appears, straddling the steed's back. He extends a hand.\n\nWhat do you do?\n\n[[take his hand and giddy-up->John Wayne link]]\n[[examine a different artifact->Return Field Steed]]",
+        "links": [
+          {
+            "name": "take his hand and giddy-up",
+            "link": "John Wayne link",
+            "pid": "31"
+          },
+          {
+            "name": "examine a different artifact",
+            "link": "Return Field Steed",
+            "pid": "10"
+          }
+        ],
+        "name": "examine steed",
+        "pid": "6",
+        "position": {
+          "x": "981",
+          "y": "1228"
+        }
+      },
+      {
+        "text": "You approach the aviators, which sit upon a wooden table, reflecting the sun's warmth in shades of rose. You pick up the aviators and try them on for size- but when you look through the pink lenses, you see a young woman who wasn't there before. She waves and signals for you to follow.\n\nWhat do you do?\n\n[[follow her->Joanne link]]\n[[examine a different artifact->Return Field Aviators]]",
+        "links": [
+          {
+            "name": "follow her",
+            "link": "Joanne link",
+            "pid": "32"
+          },
+          {
+            "name": "examine a different artifact",
+            "link": "Return Field Aviators",
+            "pid": "11"
+          }
+        ],
+        "name": "examine aviators",
+        "pid": "7",
+        "position": {
+          "x": "1131",
+          "y": "1227"
+        }
+      },
+      {
+        "text": "You return the mic to its stand and take a step back as the pathway disappears.\n\nWhich artifact do you examine next?\n\n[[rhinestoned microphone->examine mic]]\n[[pink hat->examine pink hat]]\n[[an ebony steed->examine steed]]\n[[pink tinted aviators->examine aviators]]",
+        "links": [
+          {
+            "name": "rhinestoned microphone",
+            "link": "examine mic",
+            "pid": "4"
+          },
+          {
+            "name": "pink hat",
+            "link": "examine pink hat",
+            "pid": "5"
+          },
+          {
+            "name": "an ebony steed",
+            "link": "examine steed",
+            "pid": "6"
+          },
+          {
+            "name": "pink tinted aviators",
+            "link": "examine aviators",
+            "pid": "7"
+          }
+        ],
+        "name": "Return Field Mic",
+        "pid": "8",
+        "position": {
+          "x": "679",
+          "y": "1427"
+        }
+      },
+      {
+        "text": "You remove the hat, and the grasses sprout up from the ground once more. You place the hat neatly on the mannequin and step back into the center of the clearing.\n\nWhich artifact do you examine next?\n\n[[rhinestoned microphone->examine mic]]\n[[pink hat->examine pink hat]]\n[[an ebony steed->examine steed]]\n[[pink tinted aviators->examine aviators]]",
+        "links": [
+          {
+            "name": "rhinestoned microphone",
+            "link": "examine mic",
+            "pid": "4"
+          },
+          {
+            "name": "pink hat",
+            "link": "examine pink hat",
+            "pid": "5"
+          },
+          {
+            "name": "an ebony steed",
+            "link": "examine steed",
+            "pid": "6"
+          },
+          {
+            "name": "pink tinted aviators",
+            "link": "examine aviators",
+            "pid": "7"
+          }
+        ],
+        "name": "Return Field Hat",
+        "pid": "9",
+        "position": {
+          "x": "835",
+          "y": "1426"
+        }
+      },
+      {
+        "text": "You decline the offer, and the rider disappears with a tip of his hat.\n\nWhich artifact do you examine next?\n\n[[rhinestoned microphone->examine mic]]\n[[pink hat->examine pink hat]]\n[[an ebony steed->examine steed]]\n[[pink tinted aviators->examine aviators]]",
+        "links": [
+          {
+            "name": "rhinestoned microphone",
+            "link": "examine mic",
+            "pid": "4"
+          },
+          {
+            "name": "pink hat",
+            "link": "examine pink hat",
+            "pid": "5"
+          },
+          {
+            "name": "an ebony steed",
+            "link": "examine steed",
+            "pid": "6"
+          },
+          {
+            "name": "pink tinted aviators",
+            "link": "examine aviators",
+            "pid": "7"
+          }
+        ],
+        "name": "Return Field Steed",
+        "pid": "10",
+        "position": {
+          "x": "987",
+          "y": "1426"
+        }
+      },
+      {
+        "text": "The sky shifts back from gentle pink to crystal blue as you remove the aviators. The young woman is nowhere to be seen.\n\nWhich artifact do you examine next?\n\n[[rhinestoned microphone->examine mic]]\n[[pink hat->examine pink hat]]\n[[an ebony steed->examine steed]]\n[[pink tinted aviators->examine aviators]]",
+        "links": [
+          {
+            "name": "rhinestoned microphone",
+            "link": "examine mic",
+            "pid": "4"
+          },
+          {
+            "name": "pink hat",
+            "link": "examine pink hat",
+            "pid": "5"
+          },
+          {
+            "name": "an ebony steed",
+            "link": "examine steed",
+            "pid": "6"
+          },
+          {
+            "name": "pink tinted aviators",
+            "link": "examine aviators",
+            "pid": "7"
+          }
+        ],
+        "name": "Return Field Aviators",
+        "pid": "11",
+        "position": {
+          "x": "1137",
+          "y": "1428"
+        }
+      },
+      {
+        "text": "You enter the building to find yourself in a dark, empty room.\n\nSuddenly, three sparks of light appear and illuminate the area, spiraling into magical portals.\n\nWhich portal do you enter?\n\n[[the blue portal->Arrive White Room]]\n[[the gold portal->Arrive Field]]\n[[the pink portal->Arrive Terminal]]",
+        "links": [
+          {
+            "name": "the blue portal",
+            "link": "Arrive White Room",
+            "pid": "13"
+          },
+          {
+            "name": "the gold portal",
+            "link": "Arrive Field",
+            "pid": "1"
+          },
+          {
+            "name": "the pink portal",
+            "link": "Arrive Terminal",
+            "pid": "14"
+          }
+        ],
+        "name": "Portal Room",
+        "pid": "12",
+        "position": {
+          "x": "901",
+          "y": "557"
+        }
+      },
+      {
+        "text": "You emerge from the portal, stepping into a spotless white room. On pedestals sit beautiful arrangements of pink, red, and white roses, and on the wall hangs a rendering of Botticelli's The Birth of Venus. In the center of the room sits a colassal statue of a woman birthing a blue orb, both jarring and alluring.\n\nDo you stay, or do you go back?\n\n[[stay->Stay White Room]]\n[[go back->Return Portal Room]]",
+        "links": [
+          {
+            "name": "stay",
+            "link": "Stay White Room",
+            "pid": "15"
+          },
+          {
+            "name": "go back",
+            "link": "Return Portal Room",
+            "pid": "3"
+          }
+        ],
+        "name": "Arrive White Room",
+        "pid": "13",
+        "position": {
+          "x": "1146",
+          "y": "867"
+        }
+      },
+      {
+        "text": "You emerge from the portal, but your feet do not touch the ground... You are floating in what seems to be the shuttle terminal of an intergalactic starship.\n\nDo you stay, or do you go back?\n\n[[stay->Stay Terminal]]\n[[go back->Return Portal Room]]",
+        "links": [
+          {
+            "name": "stay",
+            "link": "Stay Terminal",
+            "pid": "18"
+          },
+          {
+            "name": "go back",
+            "link": "Return Portal Room",
+            "pid": "3"
+          }
+        ],
+        "name": "Arrive Terminal",
+        "pid": "14",
+        "position": {
+          "x": "643",
+          "y": "870"
+        }
+      },
+      {
+        "text": "You take a step toward the statue as the portal behind you closes, revealing a balcony behind you. On the balcony, a golden lyre and a theremin begin to play on their own, weaving an other-worldly harmony.\n\nWhich do you examine?\n\n[[the blue orb->examine orb]]\n[[the balcony->examine window]]",
+        "links": [
+          {
+            "name": "the blue orb",
+            "link": "examine orb",
+            "pid": "16"
+          },
+          {
+            "name": "the balcony",
+            "link": "examine window",
+            "pid": "17"
+          }
+        ],
+        "name": "Stay White Room",
+        "pid": "15",
+        "position": {
+          "x": "1368",
+          "y": "733"
+        }
+      },
+      {
+        "text": "You approach the blue orb, which eminates a strange power. From a distance, the orb seems only to reflect the contents of the room, but upon drawing closer, you notice its glossy surface reflecting a different scene altogether...\n\nWhat do you do?\n\n[[gaze into the orb->Applause link]]\n[[examine the balcony->examine window]]",
+        "links": [
+          {
+            "name": "gaze into the orb",
+            "link": "Applause link",
+            "pid": "33"
+          },
+          {
+            "name": "examine the balcony",
+            "link": "examine window",
+            "pid": "17"
+          }
+        ],
+        "name": "examine orb",
+        "pid": "16",
+        "position": {
+          "x": "1544",
+          "y": "687"
+        }
+      },
+      {
+        "text": "The spritely plucks of the lyre punctuate the celestial tones of the theremin as you step out onto the balcony. As you take in the scene, you notice a large, winged creature perched on a nearby tree. As you squint to examine it closer, the creature lifts off into the air and flies by the balcony, leaving a rush of wind in its wake. The creatures soars off into the distance on majestic wings, but suddenly falls from the sky.\n\nWhat do you do?\n\n[[look for the winged creature->GUY link]]\n[[go back inside->Stay White Room 2]]",
+        "links": [
+          {
+            "name": "look for the winged creature",
+            "link": "GUY link",
+            "pid": "34"
+          },
+          {
+            "name": "go back inside",
+            "link": "Stay White Room 2",
+            "pid": "35"
+          }
+        ],
+        "name": "examine window",
+        "pid": "17",
+        "position": {
+          "x": "1545",
+          "y": "824"
+        }
+      },
+      {
+        "text": "You glide weightlessly across the terminal to the viewing deck. There, the glass dome provides a view of a strange, fuchsia planet. After marveling at its majesty, you notice that the entries to three shuttle rockets stand open in the loading deck. Perhaps they will take you to the mysterious planet.\n\nWhich shuttle do you enter?\n\n[[the one on the left->examine left]]\n[[the one in the middle->examine middle]]\n[[the one on the right->examine right]]",
+        "links": [
+          {
+            "name": "the one on the left",
+            "link": "examine left",
+            "pid": "19"
+          },
+          {
+            "name": "the one in the middle",
+            "link": "examine middle",
+            "pid": "20"
+          },
+          {
+            "name": "the one on the right",
+            "link": "examine right",
+            "pid": "21"
+          }
+        ],
+        "name": "Stay Terminal",
+        "pid": "18",
+        "position": {
+          "x": "503",
+          "y": "874"
+        }
+      },
+      {
+        "text": "You glide toward the shuttle on the left. Once you're inside, the doorway seals. You examine the module, which reveals a log entry describing the shuttle's next location:\n\n\"The Badlands. A region of tribal dispute, nestled among gigantic crystal formations.\"\n\nWhat do you do?\n\n[[blast off->Stupid Love link]]\n[[consider taking a different shuttle->Return Terminal]]",
+        "links": [
+          {
+            "name": "blast off",
+            "link": "Stupid Love link",
+            "pid": "27"
+          },
+          {
+            "name": "consider taking a different shuttle",
+            "link": "Return Terminal",
+            "pid": "22"
+          }
+        ],
+        "name": "examine left",
+        "pid": "19",
+        "position": {
+          "x": "300",
+          "y": "724"
+        }
+      },
+      {
+        "text": "You undulate toward the shuttle in the middle. Once you're inside, the doorway seals. You examine the module, which reveals a log entry describing the shuttle's next location:\n\n\"The Capitol. A technological metropolis, caught in perpetual rainfall.\"\n\nWhat do you do?\n\n[[blast off->Rain On Me Link]]\n[[consider taking a different shuttle->Return Terminal]]",
+        "links": [
+          {
+            "name": "blast off",
+            "link": "Rain On Me Link",
+            "pid": "26"
+          },
+          {
+            "name": "consider taking a different shuttle",
+            "link": "Return Terminal",
+            "pid": "22"
+          }
+        ],
+        "name": "examine middle",
+        "pid": "20",
+        "position": {
+          "x": "298",
+          "y": "878"
+        }
+      },
+      {
+        "text": "You drift toward the shuttle on the right. Once you're inside, the doorway seals. You examine the module, which reveals a log entry describing the shuttle's next location:\n\n\"The White Sands. A remote desert region, shrouded in mystery.\"\n\nWhat do you do?\n\n[[blast off->911 link]]\n[[consider taking a different shuttle->Return Terminal]]",
+        "links": [
+          {
+            "name": "blast off",
+            "link": "911 link",
+            "pid": "28"
+          },
+          {
+            "name": "consider taking a different shuttle",
+            "link": "Return Terminal",
+            "pid": "22"
+          }
+        ],
+        "name": "examine right",
+        "pid": "21",
+        "position": {
+          "x": "298",
+          "y": "1042"
+        }
+      },
+      {
+        "text": "You unseal the hatch and drift back into the loading deck.\n\nWhich shuttle do you enter?\n\n[[the one on the left->examine left]]\n[[the one in the middle->examine middle]]\n[[the one on the right->examine right]]",
+        "links": [
+          {
+            "name": "the one on the left",
+            "link": "examine left",
+            "pid": "19"
+          },
+          {
+            "name": "the one in the middle",
+            "link": "examine middle",
+            "pid": "20"
+          },
+          {
+            "name": "the one on the right",
+            "link": "examine right",
+            "pid": "21"
+          }
+        ],
+        "name": "Return Terminal",
+        "pid": "22",
+        "position": {
+          "x": "147",
+          "y": "877"
+        }
+      },
+      {
+        "text": "You stand in front of a regal, white building... it appears to be a museum of some kind. Inscribed on the archway are the words \"HAUS OF GAGA.\"\n\nEnter?\n\n[[enter->Portal Room]]\n[[turn back->Goodbye]]",
+        "links": [
+          {
+            "name": "enter",
+            "link": "Portal Room",
+            "pid": "12"
+          },
+          {
+            "name": "turn back",
+            "link": "Goodbye",
+            "pid": "24"
+          }
+        ],
+        "name": "Welcome",
+        "pid": "23",
+        "position": {
+          "x": "906",
+          "y": "362"
+        }
+      },
+      {
+        "text": "You turn back and walk off into the night.\n\nPlay again?\n[[yes->Welcome]]\n[[no->Goodbye 2]]",
+        "links": [
+          {
+            "name": "yes",
+            "link": "Welcome",
+            "pid": "23"
+          },
+          {
+            "name": "no",
+            "link": "Goodbye 2",
+            "pid": "38"
+          }
+        ],
+        "name": "Goodbye",
+        "pid": "24",
+        "position": {
+          "x": "1029",
+          "y": "207"
+        }
+      },
+      {
+        "text": "PLEASE READ\n\n1. This game integrates user input. User input must be typed exactly as the presented option displays.\n\n2. To end the game at any time, type quit.\n\n3. In this game, you may encounter themes of violence, sexual content, and drug use.\n\nDo you wish to continue?\n\n[[yes->Welcome]]\n[[no->Goodbye 2]]\n[[more info->More Info]]",
+        "links": [
+          {
+            "name": "yes",
+            "link": "Welcome",
+            "pid": "23"
+          },
+          {
+            "name": "no",
+            "link": "Goodbye 2",
+            "pid": "38"
+          },
+          {
+            "name": "more info",
+            "link": "More Info",
+            "pid": "39"
+          }
+        ],
+        "name": "Message",
+        "pid": "25",
+        "position": {
+          "x": "769",
+          "y": "210"
+        }
+      },
+      {
+        "text": "The shuttle blasts into the atmosphere, headed for the nearby planet. Go here to see where it takes you:\nhttps://youtu.be/AoAm4om0wTs\n\nPlay again?\n[[yes->Welcome]]\n[[no->Goodbye 2]]",
+        "links": [
+          {
+            "name": "yes",
+            "link": "Welcome",
+            "pid": "23"
+          },
+          {
+            "name": "no",
+            "link": "Goodbye 2",
+            "pid": "38"
+          }
+        ],
+        "name": "Rain On Me Link",
+        "pid": "26",
+        "position": {
+          "x": "20",
+          "y": "878"
+        }
+      },
+      {
+        "text": "The shuttle blasts into the atmosphere, headed for the nearby planet. Go here to see where it takes you:\nhttps://youtu.be/5L6xyaeiV58\n\nPlay again?\n[[yes->Welcome]]\n[[no->Goodbye 2]]",
+        "links": [
+          {
+            "name": "yes",
+            "link": "Welcome",
+            "pid": "23"
+          },
+          {
+            "name": "no",
+            "link": "Goodbye 2",
+            "pid": "38"
+          }
+        ],
+        "name": "Stupid Love link",
+        "pid": "27",
+        "position": {
+          "x": "21",
+          "y": "720"
+        }
+      },
+      {
+        "text": "The shuttle blasts into the atmosphere, headed for the nearby planet. Go here to see where it takes you:\nhttps://youtu.be/58hoktsqk_Q\n\nPlay again?\n[[yes->Welcome]]\n[[no->Goodbye 2]]",
+        "links": [
+          {
+            "name": "yes",
+            "link": "Welcome",
+            "pid": "23"
+          },
+          {
+            "name": "no",
+            "link": "Goodbye 2",
+            "pid": "38"
+          }
+        ],
+        "name": "911 link",
+        "pid": "28",
+        "position": {
+          "x": "24",
+          "y": "1036"
+        }
+      },
+      {
+        "text": "You follow the dusty path. Go here to see where it takes you:\nhttps://youtu.be/Xn599R0ZBwg\n\nPlay again?\n[[yes->Welcome]]\n[[no->Goodbye 2]]",
+        "links": [
+          {
+            "name": "yes",
+            "link": "Welcome",
+            "pid": "23"
+          },
+          {
+            "name": "no",
+            "link": "Goodbye 2",
+            "pid": "38"
+          }
+        ],
+        "name": "Perfect Illusion link",
+        "pid": "29",
+        "position": {
+          "x": "679",
+          "y": "1546"
+        }
+      },
+      {
+        "text": "You lie down in the warm, desert sand. Go here to see what happens next:\nhttps://youtu.be/en2D_5TzXCA\n\nPlay again?\n[[yes->Welcome]]\n[[no->Goodbye 2]]",
+        "links": [
+          {
+            "name": "yes",
+            "link": "Welcome",
+            "pid": "23"
+          },
+          {
+            "name": "no",
+            "link": "Goodbye 2",
+            "pid": "38"
+          }
+        ],
+        "name": "Million Reasons link",
+        "pid": "30",
+        "position": {
+          "x": "830",
+          "y": "1548"
+        }
+      },
+      {
+        "text": "The rider hoists you up, and the steed breaks into a sprint. Go here to see where it takes you:\nhttps://youtu.be/o9iQ8lIfyEs\n\nPlay again?\n[[yes->Welcome]]\n[[no->Goodbye 2]]",
+        "links": [
+          {
+            "name": "yes",
+            "link": "Welcome",
+            "pid": "23"
+          },
+          {
+            "name": "no",
+            "link": "Goodbye 2",
+            "pid": "38"
+          }
+        ],
+        "name": "John Wayne link",
+        "pid": "31",
+        "position": {
+          "x": "989",
+          "y": "1548"
+        }
+      },
+      {
+        "text": "You follow the woman. Go here to see where she takes you:\nhttps://youtu.be/8ll04Zzw5UM\n\nPlay again?\n[[yes->Welcome]]\n[[no->Goodbye 2]]",
+        "links": [
+          {
+            "name": "yes",
+            "link": "Welcome",
+            "pid": "23"
+          },
+          {
+            "name": "no",
+            "link": "Goodbye 2",
+            "pid": "38"
+          }
+        ],
+        "name": "Joanne link",
+        "pid": "32",
+        "position": {
+          "x": "1140",
+          "y": "1549"
+        }
+      },
+      {
+        "text": "You gaze into the deep, blue orb... suddenly the white room turns black as music begins to fill the space. Go here to see what happens next:\nhttps://youtu.be/pco91kroVgQ\n\nPlay again?\n[[yes->Welcome]]\n[[no->Goodbye 2]]",
+        "links": [
+          {
+            "name": "yes",
+            "link": "Welcome",
+            "pid": "23"
+          },
+          {
+            "name": "no",
+            "link": "Goodbye 2",
+            "pid": "38"
+          }
+        ],
+        "name": "Applause link",
+        "pid": "33",
+        "position": {
+          "x": "1800",
+          "y": "757"
+        }
+      },
+      {
+        "text": "You jump over the balcony and land gracefully in the courtyard, where a magnificent pool sits, undisturbed. But there's no time for swimming now! You run through the gates in search of the winged creature. Go here to find her:\nhttps://youtu.be/PNu_-deVemE\n\nPlay again?\n[[yes->Welcome]]\n[[no->Goodbye 2]]",
+        "links": [
+          {
+            "name": "yes",
+            "link": "Welcome",
+            "pid": "23"
+          },
+          {
+            "name": "no",
+            "link": "Goodbye 2",
+            "pid": "38"
+          }
+        ],
+        "name": "GUY link",
+        "pid": "34",
+        "position": {
+          "x": "1802",
+          "y": "930"
+        }
+      },
+      {
+        "text": "You step back inside the white room.\n\nWhat do you do now?\n\n[[examine the blue orb->examine orb 2]]\n[[return to the balcony->examine window 2]]",
+        "links": [
+          {
+            "name": "examine the blue orb",
+            "link": "examine orb 2",
+            "pid": "36"
+          },
+          {
+            "name": "return to the balcony",
+            "link": "examine window 2",
+            "pid": "37"
+          }
+        ],
+        "name": "Stay White Room 2",
+        "pid": "35",
+        "position": {
+          "x": "1369",
+          "y": "946"
+        }
+      },
+      {
+        "text": "You approach the blue orb, which eminates a strange power. From a distance, the orb seems only to reflect the contents of the room, but upon drawing closer, you notice its glossy surface reflecting a different scene altogether...\n\nWhat do you do?\n\n[[gaze into the orb->Applause link]]\n[[examine the balcony->examine window 2]]",
+        "links": [
+          {
+            "name": "gaze into the orb",
+            "link": "Applause link",
+            "pid": "33"
+          },
+          {
+            "name": "examine the balcony",
+            "link": "examine window 2",
+            "pid": "37"
+          }
+        ],
+        "name": "examine orb 2",
+        "pid": "36",
+        "position": {
+          "x": "1544",
+          "y": "950"
+        }
+      },
+      {
+        "text": "You return to the balcony, gazing out into the sky from which the winged creature fell.\n\nWhat do you do?\n\n[[look for the winged creature->GUY link]]\n[[go back inside->Stay White Room 2]]",
+        "links": [
+          {
+            "name": "look for the winged creature",
+            "link": "GUY link",
+            "pid": "34"
+          },
+          {
+            "name": "go back inside",
+            "link": "Stay White Room 2",
+            "pid": "35"
+          }
+        ],
+        "name": "examine window 2",
+        "pid": "37",
+        "position": {
+          "x": "1544",
+          "y": "1080"
+        }
+      },
+      {
+        "text": "Thanks for playing.",
+        "name": "Goodbye 2",
+        "pid": "38",
+        "position": {
+          "x": "898",
+          "y": "8"
+        }
+      },
+      {
+        "text": "Some paths in this game involve themes and depictions of violence and sexual content. Adhere to the following guidelines if you wish to avoid the most explicit paths:\n\n1. Do not enter the blue portal.\n2. Do not examine the ebony steed.\n\nDo you wish to continue?\n\n[[yes->Welcome]]\n[[no->Goodbye 2]]",
+        "links": [
+          {
+            "name": "yes",
+            "link": "Welcome",
+            "pid": "23"
+          },
+          {
+            "name": "no",
+            "link": "Goodbye 2",
+            "pid": "38"
+          }
+        ],
+        "name": "More Info",
+        "pid": "39",
+        "position": {
+          "x": "897",
+          "y": "210"
+        }
+      }
+    ],
+    "name": "Museum of Gaga 2",
+    "startnode": "25",
+    "creator": "Twine",
+    "creator-version": "2.3.11",
+    "ifid": "F0499220-F97B-4D82-A559-064F7C419058"
+  }
